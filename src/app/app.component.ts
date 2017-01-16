@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  private title = "My angular test app"
+  title = "My angular test app";
+  delete = false;
+  test = "Starting value";
+  boundValue = 1000;
 }
